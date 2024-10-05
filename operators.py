@@ -21,3 +21,10 @@ print(2 ** 9)
 
 # % - module i.e. remainder
 print(7 % 3)
+
+# arithmetic order
+print(2 + 4 * 2 ** 3)
+
+
+# big numbers for readibility purpose we can add _ 
+print(1_000_000_000)
