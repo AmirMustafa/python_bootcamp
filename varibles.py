@@ -15,3 +15,13 @@ print(c)
 
 age, name = 20, 'John'
 print(age, name)
+
+x = None
+print(x)
+
+# List (Same as array in JS)
+z = ["Amir", 50, [1, 2, 3]];
+
+print(z)
+print(type(z))
+
