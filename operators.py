@@ -26,5 +26,5 @@ print(7 % 3)
 print(2 + 4 * 2 ** 3)
 
 
-# big numbers for readibility purpose we can add _ 
+# big numbers for readability purpose we can add _ 
 print(1_000_000_000)
