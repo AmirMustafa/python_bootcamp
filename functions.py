@@ -73,3 +73,26 @@ def name_printer(par1):
 
 name = input("Please enter your name.")
 name_printer(name)
+
+# ex challenge 3 - cal vol
+length = int(input("Enter length"));
+width = int(input("Enter width"));
+height = int(input("Enter height"));
+
+def calculateVolume(length, width, height):
+    return length * width * height
+
+volume = str(calculateVolume(length, width, height))
+print(volume + " cubic feet.")
+
+
+# ex challenge 4 - celsius to fahrenheit
+
+celsius_temp = float(input("Enter temperature in celsius"))
+
+def celsius_to_fahrenheit(temp):
+    return (1.8 * temp) + 32
+
+fahrenheit_temp = celsius_to_fahrenheit(celsius_temp)
+print("The Fahrenheit equivalent of " + str(celsius_temp) + ' is ' + str(fahrenheit_temp))
+
