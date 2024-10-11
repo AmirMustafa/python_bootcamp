@@ -35,3 +35,25 @@ def multi_params(p1, p2, p3):
     
 
 multi_params(first_str, 5, " is an integer.")
+
+# Eg 5: Default parameters
+
+def default_eg(num1=7, num2=8):
+    print(num1 * num2)
+
+
+default_eg()
+default_eg(1)
+default_eg(2, 3)
+
+# Eg 6: Return statements in functions
+
+def default_eg(num1=7, num2=8):
+    return num1 * num2
+
+
+data1 = default_eg()
+data2 = default_eg(1)
+data3 = default_eg(2, 3)
+
+print(data1, data2, data3)
