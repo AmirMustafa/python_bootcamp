@@ -88,10 +88,11 @@ print(volume + " cubic feet.")
 
 # ex challenge 4 - celsius to fahrenheit
 
-celsius_temp = float(input("Enter temperature in celsius"))
+celsius_temp = int(input("Enter temperature in celsius"))
 
 def celsius_to_fahrenheit(temp):
-    return (1.8 * temp) + 32
+    return ((1.8 * temp) + 320)/10  # multiplied and divided by 10 to solve approximation error
+    # return (1.8 * temp) + 32
 
 fahrenheit_temp = celsius_to_fahrenheit(celsius_temp)
 print("The Fahrenheit equivalent of " + str(celsius_temp) + ' is ' + str(fahrenheit_temp))
