@@ -47,7 +47,6 @@ default_eg(1)
 default_eg(2, 3)
 
 # Eg 6: Return statements in functions
-
 def default_eg(num1=7, num2=8):
     return num1 * num2
 
@@ -57,3 +56,20 @@ data2 = default_eg(1)
 data3 = default_eg(2, 3)
 
 print(data1, data2, data3)
+
+# ex challenge 1
+def hello_world_printer():
+    print("hello world")
+
+
+hello_world_printer()
+
+
+# ex challenge 2
+
+def name_printer(par1):
+    print(par1)
+    
+
+name = input("Please enter your name.")
+name_printer(name)
