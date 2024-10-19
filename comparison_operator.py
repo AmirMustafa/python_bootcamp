@@ -5,3 +5,7 @@ print(1 <= 5)
 
 print("hello world" == "hello world")
 print("hello world" == "Hello World")
+
+print(4.0 >= 4)
+print(4.0 <= 4)
+print(4.0 == 4)
