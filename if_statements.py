@@ -1,4 +1,6 @@
-veg = input("Type the name of a vegetable")
+veg = input("Type the name of a vegetable.")
 
 if veg == "corn":
-    print("Veg = " + veg)
+    print("The vegetable is corn.")
+else:
+    print("The vegetable is not corn.")
